@@ -1,0 +1,36 @@
+/* Nieuwe kleuren */
+:root {
+    --light-blue-bg: #F0F8FF; /* Zeer lichtblauwe achtergrond (AliceBlue) */
+    --primary-light-blue: #87CEFA; /* De nieuwe primaire lichtblauwe kleur (LightSkyBlue) */
+    --primary-light-blue-hover: #6495ED; /* Een iets donkerdere hover-kleur (CornflowerBlue) */
+}
+
+/* Pas de algemene achtergrondkleur van de body aan */
+body {
+    background-color: var(--light-blue-bg);
+}
+
+/* Pas de 'btn-primary' klasse aan naar de nieuwe lichtblauwe kleur */
+.btn-primary {
+    background-color: var(--primary-light-blue);
+    border-color: var(--primary-light-blue);
+    color: #333333; /* Donkere tekst op lichte knop */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-light-blue-hover);
+    border-color: var(--primary-light-blue-hover);
+    color: #FFFFFF; /* Witte tekst bij hover voor contrast */
+}
+
+/* Pas de actieve navigatielink aan */
+.navbar-nav .nav-item .nav-link.active {
+    color: var(--primary-light-blue) !important;
+    font-weight: bold;
+}
+
+/* Optioneel: Maak de footer iets lichter donker dan de standaard Bootstrap bg-dark */
+footer.bg-dark {
+    background-color: #34495e !important;
+}
