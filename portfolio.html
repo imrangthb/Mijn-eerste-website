@@ -13,15 +13,19 @@
 </head>
 <body>
 
-    <header class="text-center py-4 bg-light">
-        <img src="assets/Logo.png" alt="ImraNet Logo" height="100"> 
-        <h1 class="mt-2">Imran Chakour | IT-Oplossingen</h1>
-        <nav class="mt-3">
-            <a href="index.html" class="mx-3 text-decoration-none">Home</a>
-            <a href="portfolio.html" class="mx-3 text-decoration-none active">Projecten</a>
-            <a href="contact.html" class="mx-3 text-decoration-none">Contact</a>
-        </nav>
-    </header>
+  <header class="bg-primary text-white p-3 d-flex justify-content-between align-items-center">
+        <h1 class="h3 mb-0 me-3">Imran Chakour | IT-Oplossingen</h1> 
+        <div class="d-flex align-items-center">
+            <nav class="me-3">
+               <a href="index.html" class="text-white text-decoration-none me-3">Home</a>
+                <a href="portfolio.html" class="text-white text-decoration-none me-3">Projecten</a>
+                <a href="contact.html" class="text-white text-decoration-none">Contact</a>
+            </nav>
+            <a href="index.html" class="d-flex align-items-center">
+                <img src="assets/Logo.png" alt="ImraNet Logo" class="img-fluid rounded" style="height: 40px;">
+            </a>
+        </div>
+</header>
 
     <main class="container my-5">
         <h2 class="text-center mb-5 border-bottom pb-2">Onze Recente IT-Projecten</h2>
@@ -32,11 +36,16 @@
                 <div class="card h-100 project-card shadow-sm">
                     <img src="assets/adi-goldstein-EUsVwEOsblE-unsplash.jpg" class="card-img-top-custom" alt="Afbeelding van een futuristisch circuit board.">
                     <div class="card-body">
-                        <h4 class="card-title mb-1 text-dark">1. [Project 1 Titel]</h4>
+                        <h4 class="card-title mb-1 text-dark">
+                        <a href="detail.html" class="text-decoration-none text-dark">
+                         <button></button>
+                            1. Gestructureerd bekabelen
+                            </a>
+                            </h4>
                         <p class="text-muted fw-bold mb-3"></p>
                         <p class="card-text">
                             </p>
-                        <a href="#" class="card-link">Meer info...</a>
+                        <a href="detail.html" class="card-link">Meer info...</a>
                     </div>
                 </div>
             </div>
@@ -109,7 +118,7 @@
         </div> </main>
     
     <footer class="text-center mt-5 py-3 bg-light border-top">
-        <p class="mb-0">&copy; 2024 Imran Chakour | IT Expertise. Sommige rechten voorbehouden.</p>
+        <p class="mb-0">&copy; 2025 Imran Chakour | IT Expertise. Sommige rechten voorbehouden.</p>
     </footer>
 
     
